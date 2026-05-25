@@ -9,8 +9,8 @@ namespace HotelListing.Api.Controllers;
 [ApiController]
 public class HotelsController : ControllerBase
 {
-    public static List<Hotel> hotels = new List<Hotel>
-    {
+   public static List<Hotel> hotels = new List<Hotel>
+     {
     new Hotel{ Id =1,Name = "Grand Plaza",Address = "123 MAin st",Rating=4.5},
     new Hotel{ Id =2,Name = "Ocean View",Address = "456 Beach rd",Rating=4.8}
     };
